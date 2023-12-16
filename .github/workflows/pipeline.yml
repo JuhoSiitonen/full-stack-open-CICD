@@ -54,7 +54,6 @@ jobs:
           severity: error
           details: |
             Deployment failed!
-            Commit: ${{ github.event.before }}..${{ github.event.after }}
             Commit Message: ${{ github.event.commits[0].message }}
             Committer: ${{ github.event.head_commit.committer.name }}
             Author: ${{ github.event.head_commit.author.name }}
