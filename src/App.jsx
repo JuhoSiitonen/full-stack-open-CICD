@@ -36,6 +36,7 @@ const App = () => {
       </Switch>
     </Router>
   )
+  error
 }
 
 export default App
